@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Straad.Course.HUP.NetMauiUiChallengesAi.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Straad.Course.HUP.NetMauiUiChallengesAi"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Straad.Course.HUP.NetMauiUiChallengesAi">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
