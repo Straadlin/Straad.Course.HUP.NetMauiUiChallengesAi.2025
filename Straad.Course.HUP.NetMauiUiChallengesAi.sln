@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Straad.Course.HUP.NetMauiUiChallengesAi", "Straad.Course.HUP.NetMauiUiChallengesAi\Straad.Course.HUP.NetMauiUiChallengesAi.csproj", "{1153BF9F-EC11-44A6-A72F-4D210E78B0EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Straad.Course.HUP.NetMauiUiChallengesAi", "Straad.Course.HUP.NetMauiUiChallengesAi\Straad.Course.HUP.NetMauiUiChallengesAi.csproj", "{A4552E2C-C957-4D19-B879-1962F95FC1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{3F685C63-594A-4018-A264-1C6B92F6A5EA}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Notes.txt = doc\Notes.txt
+		doc\Issue to can execute app.png = doc\Issue to can execute app.png
+		doc\Design challenge.png = doc\Design challenge.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +18,11 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1153BF9F-EC11-44A6-A72F-4D210E78B0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1153BF9F-EC11-44A6-A72F-4D210E78B0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1153BF9F-EC11-44A6-A72F-4D210E78B0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1153BF9F-EC11-44A6-A72F-4D210E78B0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4552E2C-C957-4D19-B879-1962F95FC1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4552E2C-C957-4D19-B879-1962F95FC1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4552E2C-C957-4D19-B879-1962F95FC1AF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4552E2C-C957-4D19-B879-1962F95FC1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4552E2C-C957-4D19-B879-1962F95FC1AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,15 +1,16 @@
-﻿namespace Straad.Course.HUP.NetMauiUiChallengesAi
-{
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
-        }
+﻿using Straad.Course.HUP.NetMauiUiChallengesAi.Views;
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+namespace Straad.Course.HUP.NetMauiUiChallengesAi;
+
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+    }
+
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+        return new Window(new DashboardView());
     }
 }
