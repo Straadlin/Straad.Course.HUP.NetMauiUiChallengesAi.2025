@@ -7,9 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Straad.Course.HUP.NetMauiUi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{3F685C63-594A-4018-A264-1C6B92F6A5EA}"
 	ProjectSection(SolutionItems) = preProject
-		doc\Notes.txt = doc\Notes.txt
-		doc\Issue to can execute app.png = doc\Issue to can execute app.png
 		doc\Design challenge.png = doc\Design challenge.png
+		doc\Issue to can execute app.png = doc\Issue to can execute app.png
+		doc\Design completed.png = doc\Design completed.png
+		doc\Notes.txt = doc\Notes.txt
 	EndProjectSection
 EndProject
 Global

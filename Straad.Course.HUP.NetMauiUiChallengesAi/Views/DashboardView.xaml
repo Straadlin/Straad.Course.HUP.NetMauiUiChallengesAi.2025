@@ -16,6 +16,7 @@
     </ContentPage.Resources>
 
     <Grid Margin="25,25,0,0" RowDefinitions=".1*,.2*,.15*,.45*,.1*">
+        
         <Grid Margin="0,0,25,0" ColumnDefinitions="*,*">
             <VerticalStackLayout VerticalOptions="Center">
                 <Rectangle Fill="#CACDD3"
@@ -32,7 +33,10 @@
                     HeightRequest="75"
                     HorizontalOptions="End"
                     WidthRequest="75">
-                <!--StrokeShape="RoundedRectangle 80,80,80,80"-->
+                    <!--StrokeShape="RoundedRectangle 80,80,80,80"-->
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="80,80,80,80"/>
+                </Border.StrokeShape>
                 <Image Aspect="AspectFill"
                        HeightRequest="100"
                        HorizontalOptions="Center"
@@ -40,6 +44,7 @@
                        WidthRequest="100"/>
             </Border>
         </Grid>
+        
         <VerticalStackLayout Grid.Row="1" VerticalOptions="Center">
             <Label FontFamily="NexaHeavy" 
                    FontSize="30"
@@ -51,6 +56,7 @@
                    Text="Join your friends"
                    TextColor="#ACB1BB"/>
         </VerticalStackLayout>
+        
         <CollectionView Grid.Row="2"
                         ItemsSource="{Binding Profiles}"
                         VerticalOptions="Center">
@@ -94,6 +100,7 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+        
         <cards:CoverFlowView Grid.Row="3"
                              Margin="-25,0,25,0"
                              ItemsSource="{Binding GeneratedImages}"
@@ -107,6 +114,9 @@
                     <Border StrokeThickness="0" 
                             >
                             <!--StrokeShape="RoundedRectangle 25,25,25,25"-->
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="25,25,25,25"/>
+                        </Border.StrokeShape>
                         <Grid RowDefinitions=".7*,.3*">
                             <Image Grid.RowSpan="2"
                                    Aspect="AspectFill"
@@ -138,6 +148,9 @@
                 HorizontalOptions="End"
                 WidthRequest="250">
                 <!--StrokeShape="RoundedRectangle 55,0,0,0"-->
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="55,0,0,0"/>
+            </Border.StrokeShape>
             <Button BackgroundColor="#E8FF8E"
                     FontFamily="NexaHeavy"
                     FontSize="16"
